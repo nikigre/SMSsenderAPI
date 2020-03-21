@@ -1,0 +1,27 @@
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\bin\Debug\DemoProjekt.exe.config
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\bin\Debug\DemoProjekt.exe
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\bin\Debug\DemoProjekt.pdb
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\bin\Debug\SMSsender.dll
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\bin\Debug\SMSsender.pdb
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\bin\Debug\SMSsender.xml
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\obj\Debug\DemoProjekt.csprojAssemblyReference.cache
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\obj\Debug\DemoProjekt.Form1.resources
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\obj\Debug\DemoProjekt.Properties.Resources.resources
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\obj\Debug\DemoProjekt.csproj.GenerateResource.cache
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\obj\Debug\DemoProjekt.csproj.CoreCompileInputs.cache
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\obj\Debug\DemoProjekt.csproj.CopyComplete
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\obj\Debug\DemoProjekt.exe
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\DemoProjekt\obj\Debug\DemoProjekt.pdb
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\bin\Debug\DemoProjekt.exe.config
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\bin\Debug\DemoProjekt.exe
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\bin\Debug\DemoProjekt.pdb
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\bin\Debug\SMSsender.dll
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\bin\Debug\SMSsender.pdb
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\obj\Debug\DemoProjekt.csprojAssemblyReference.cache
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\obj\Debug\DemoProjekt.Form1.resources
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\obj\Debug\DemoProjekt.Properties.Resources.resources
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\obj\Debug\DemoProjekt.csproj.GenerateResource.cache
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\obj\Debug\DemoProjekt.csproj.CoreCompileInputs.cache
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\obj\Debug\DemoProjekt.csproj.CopyComplete
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\obj\Debug\DemoProjekt.exe
+D:\OneDrive - Šolski center Celje\Nik-PC\Desktop\Programi\Programiranje\Csharp\GUI\SMSsender\SMSsender 4.0\DemoProjekt\obj\Debug\DemoProjekt.pdb

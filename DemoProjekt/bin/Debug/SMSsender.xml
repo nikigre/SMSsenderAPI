@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SMSsender</name>
+    </assembly>
+    <members>
+        <member name="T:SMSsender.Settings">
+            <summary>
+            Settings for custom API calls
+            </summary>
+        </member>
+        <member name="M:SMSsender.Settings.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:SMSsender.Settings.#ctor(System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Constructor for setting all parameters
+            </summary>
+            <param name="sendSMS">Do you want to send SMS?</param>
+            <param name="returnNumberOfSMStoday">Do you want to get information, on how many SMS you can send today?</param>
+            <param name="returnLengthOfSMS">Do you want to know the length of SMS?</param>
+            <param name="returnReceivedSMS">Do you want to get recieved SMSs?</param>
+        </member>
+        <member name="P:SMSsender.Settings.SendSMS">
+            <summary>
+            Do you want to send SMS?
+            </summary>
+        </member>
+        <member name="P:SMSsender.Settings.ReturnNumberOfSMStoday">
+            <summary>
+            Do you want to get information, on how many SMS you can send today?
+            </summary>
+        </member>
+        <member name="P:SMSsender.Settings.ReturnLengthOfSMS">
+            <summary>
+            Do you want to know the length of SMS?
+            </summary>
+        </member>
+        <member name="P:SMSsender.Settings.ReturnReceivedSMS">
+            <summary>
+            Do you want to get recieved SMSs?
+            </summary>
+        </member>
+        <member name="P:SMSsender.Settings.Func">
+            <summary>
+            Returns 4 digit number for sending it to API
+            </summary>
+        </member>
+        <member name="T:SMSsender.SMSsender">
+            <summary>
+            SMSsender class That contains methods you can use
+            </summary>
+        </member>
+        <member name="M:SMSsender.SMSsender.SendRequestToAPIAsync(System.String,System.String,System.String,SMSsender.Settings)">
+            <summary>
+            Send Modified request to API Async method
+            </summary>
+            <param name="message">Message you want to send</param>
+            <param name="phone_number">Phone number of client</param>
+            <param name="user">API username</param>
+            <param name="settings">Settings </param>
+            <returns></returns>
+        </member>
+        <member name="M:SMSsender.SMSsender.SendRequestToAPI(System.String,System.String,System.String,SMSsender.Settings)">
+            <summary>
+            Send Modified request to API
+            </summary>
+            <param name="message">Message you want to send</param>
+            <param name="phone_number">Phone number of client</param>
+            <param name="user">API username</param>
+            <param name="settings">Settings </param>
+            <returns></returns>
+        </member>
+        <member name="M:SMSsender.SMSsender.ReturnLengthOfSMS(System.String,System.String)">
+            <summary>
+            Returns number of SMS messages, specified message will take.
+            </summary>
+            <param name="message">Message you want to check</param>
+            <param name="user">API username</param>
+            <returns></returns>
+        </member>
+        <member name="M:SMSsender.SMSsender.SendSMS(System.String,System.String,System.String)">
+            <summary>
+            Sends SMS to specified number. Returns null if everything is okay.
+            </summary>
+            <param name="message">Message to send</param>
+            <param name="phone_number">Phone number to send to</param>
+            <param name="user">API username</param>
+            <returns></returns>
+        </member>
+        <member name="M:SMSsender.SMSsender.ReturnNumberOfSMStoday(System.String)">
+            <summary>
+            Returns a number of SMSs you can send today.
+            </summary>
+            <param name="user">API username</param>
+            <returns></returns>
+        </member>
+        <member name="M:SMSsender.SMSsender.ReturnReceivedSMS(System.String,System.String)">
+            <summary>
+            Returns a number of SMSs you can send today. If return is NULL, then there are no new recieved SMS
+            </summary>
+            <param name="user">API username</param>
+            <param name="date">Filter</param>
+            <returns></returns>
+        </member>
+        <member name="T:SMSsender.SMS">
+            <summary>
+            Info about SMS message
+            </summary>
+        </member>
+        <member name="M:SMSsender.SMS.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:SMSsender.SMS.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Sets all required parameters
+            </summary>
+            <param name="ID">ID of SMS</param>
+            <param name="phone">Phone number of SMS sender</param>
+            <param name="message">Text message</param>
+            <param name="date">Date when SMS was recieved</param>
+        </member>
+        <member name="P:SMSsender.SMS.Message">
+            <summary>
+            Returns the SMS message
+            </summary>
+        </member>
+        <member name="P:SMSsender.SMS.Phone">
+            <summary>
+            Returns the number of SMS sender
+            </summary>
+        </member>
+        <member name="P:SMSsender.SMS.Date">
+            <summary>
+            Returns the date SMS was recieved
+            </summary>
+        </member>
+        <member name="T:SMSsender.HttpServer">
+            <summary>
+            SMS sender server
+            </summary>
+        </member>
+        <member name="F:SMSsender.HttpServer.port">
+            <summary>
+            Port of server
+            </summary>
+        </member>
+        <member name="M:SMSsender.HttpServer.#ctor(System.Int32)">
+            <summary>
+            Constructor for creating SMS sender server
+            </summary>
+            <param name="port">Port on which server should run</param>
+        </member>
+        <member name="M:SMSsender.HttpServer.StartInThread">
+            <summary>
+            Method starts server in another thread
+            </summary>
+        </member>
+        <member name="P:SMSsender.HttpServer.Is_On">
+            <summary>
+            If server is working, this is set to True
+            </summary>
+        </member>
+        <member name="M:SMSsender.HttpServer.StopThread">
+            <summary>
+            Method stops SMS sender server
+            </summary>
+        </member>
+        <member name="T:SMSsender.SMSsenderServer">
+            <summary>
+            Class for HttpServer
+            </summary>
+        </member>
+        <member name="E:SMSsender.SMSsenderServer.RecievedSMS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SMSsender.SMSsenderServer.#ctor(System.Int32)">
+            <summary>
+            Method that creates SMS sender server
+            </summary>
+            <param name="port">Port on which server should run</param>
+        </member>
+        <member name="M:SMSsender.SMSsenderServer.IsNewSMS">
+            <summary>
+            Returns if new SMS was recieved
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
